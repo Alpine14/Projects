@@ -23,7 +23,7 @@ public class Transaction {
     private String calculateHash(){
         sequence++;
         return StringUtil.applySha256(
-                StringUtil.getStringfromKey(sender) +
+                StringUtil.getStringfromKey(sender)
                         
         )
     }
