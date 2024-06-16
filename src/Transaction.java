@@ -24,7 +24,5 @@ public class Transaction {
         sequence++;
         return StringUtil.applySha256(
                 StringUtil.getStringfromKey(sender)
-                        
-        )
     }
 }
